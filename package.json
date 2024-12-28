@@ -1,5 +1,5 @@
 {
-  "name": "@aex5/nextbrew",
+  "name": "nextbrew",
   "version": "1.0.0",
   "description": "A package for amazing functionality using Next.js and TailwindCSS",
   "main": "index.js",
