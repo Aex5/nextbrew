@@ -1,9 +1,13 @@
 {
-  "private": true,
+  "name": "@aex5/nextbrew",
+  "version": "1.0.0",
+  "description": "A package for amazing functionality using Next.js and TailwindCSS",
+  "main": "index.js",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -28,6 +32,22 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0"
   },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "react",
+    "npm-package"
+  ],
+  "author": "Aditya Argadianata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aex5/nextbrew"
+  },
+  "bugs": {
+    "url": "https://github.com/Aex5/nextbrew/issues"
+  },
+  "homepage": "https://github.com/Aex5/nextbrew#readme",
   "engines": {
     "node": ">=20.12.0"
   }
